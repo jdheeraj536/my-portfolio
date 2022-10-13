@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: black;
+    height: 70px;
+}
+.heading {
+    position: relative;
+    margin: 10px;
+    left: 50%;
+    top:15px;
+    list-style: none;
+}
+
+.logo img{
+    width: 120px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+
+}
+.header .heading a{
+    text-decoration: none;
+    color: white;
+
+}
+.header .heading a:hover{
+    color: red;
+}
+.container{
+    width: 100%;
+    height: 200px;
+    background-color: #debabff5;
+    position: relative;
+    top: -201px;
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 685px;
+    bottom: 132px;
+}
+.content{
+    position: absolute;
+    left: 36%;
+    text-align: center;
+    top: 79px;
+}
+
+
+.back-up{
+    background-image: url(./keyboard.jpg);
+    background-size: cover;
+    height: 379px;
+}
+.facebook img{
+    position: absolute;
+    left: 75%;
+    top: 15px;
+    width: 35px;
+}
+.insta img{
+    position: absolute;
+    left: 80%;
+    top: 15px;
+    width: 35px;
+}
+.whatsapp img{
+    position: absolute;
+    left: 85%;
+    top: 15px;
+    width: 35px;
+}
+.twitter img{
+    position: absolute;
+    left: 90%;
+    top: 15px;
+    width: 35px;
+}
+.linkedin img{
+    position: absolute;
+    left: 95%;
+    top: 15px;
+    width: 35px;
+}
+.call img{
+    position: absolute;
+    left: 2%;
+    top: 15px;
+    width: 35px;
+}
+.call1{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left:80px;
+    top: 23px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cv{
+    position: absolute;
+    left: 46%;
+    top: 165px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+.cv a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* About */
+.about{
+    position: relative;
+    bottom: 198px;
+    background-image: url(./about.jpg);
+    background-size: cover;
+    height: 100px;
+}
+.about-heading{
+    position: relative;
+    left: 47%;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    top: 30px;
+    font-size: 30px;
+}
+
+.about-box{
+    width: 95%;
+    height: 250px;
+    border: 2px dotted red;
+    position: relative;
+    bottom: 150px;
+    left: 30px;
+    padding: 10px
+}
+.me{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.first{
+    line-height: 29px;
+    font-size: 17px;
+    position: absolute;
+    left: 44px;
+}
+
+/* ============Work===================== */
+.heading-work{
+    position: relative;
+    bottom: 100px;
+    background-image: url(./about.jpg);
+    background-size: cover;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 90px;
+}
+.work-flex{
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.work-content{
+    width: 400px;
+    height: 200px;
+    border: 2px dotted red;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 24px;
+    padding: 10px;
+}
+.work-content img{
+    width: 100px;
+    margin-top:20px;
+    top: 50px;
+}
