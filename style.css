@@ -73,7 +73,13 @@
     text-align: center;
     top: 79px;
 }
-
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .content{
+        left: 131px;
+        position: absolute;
+        width: 0;
+    }
+}
 
 .back-up{
     background-image: url(./keyboard.jpg);
