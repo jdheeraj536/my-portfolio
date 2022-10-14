@@ -48,11 +48,7 @@
     position: relative;
     top: -201px;
 }
-@media only screen and (min-width: 360px) and (max-width: 640px){
-    .container{
-        
-    }
-}
+
 .photo img{
     width: 200px;
     height: 200px;
@@ -224,37 +220,29 @@
 }
 
 /* About */
-.about{
+
+#about-heading{
     position: relative;
-    bottom: 198px;
+    bottom: 197px;
     background-image: url(./about.jpg);
     background-size: cover;
     height: 100px;
-}
-.about-heading{
-    position: absolute;
-    left: 47%;
     color: white;
-    font-weight: bold;
-    font-family: sans-serif;
-    top: 30px;
+    text-align: center;
     font-size: 30px;
+    font-weight: bold;
+    line-height: 90px;
 }
-@media only screen and (min-width: 360px) and (max-width: 640px){
-    .about-heading{
-       position: absolute;
-       left: 117px;
-    }
-}
+
 
 .about-box{
     width: 95%;
     height: 270px;
     border: 2px dotted red;
     position: relative;
-    bottom: 150px;
+    bottom: 145px;
     left: 30px;
-    padding: 10px
+    padding: 10px;
 }
 @media only screen and (min-width: 360px) and (max-width: 640px){
     .about-box{
@@ -291,7 +279,7 @@
 }
 
 /* ============Work===================== */
-.heading-work{
+#work{
     position: relative;
     bottom: 100px;
     background-image: url(./about.jpg);
@@ -304,7 +292,7 @@
     line-height: 90px;
 }
 @media only screen and (min-width: 360px) and (max-width: 640px){
-    .heading-work{
+    #work{
         position: relative;
         top: -145px;
 }
@@ -370,5 +358,239 @@
         left: -104px;
         line-height: 26px;
         width: 319px;
+    }
+}
+
+/* ====================Contact Us=================================== */
+
+#contact{
+    position: relative;
+    background-image: url(./about.jpg);
+    background-size: cover;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 90px;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    #contact{
+        position: relative;
+        bottom: 117px;
+    }
+}
+
+.form{
+    width: 57vw;
+    height: 60vh;
+    border: 2px dashed red;
+    left: 62px;
+    box-sizing: content-box;
+    position: relative;
+    left: 315px;
+    top:40px;
+    background-color: #e1686828;
+    padding: 20px;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .form{
+        position: relative;
+        left: 5px;
+        width: 305px;
+        height: 522px;
+        top: -91px;
+    }
+}
+
+.contact-heading{
+    color: rgb(255, 34, 71);
+    line-height: 50px;
+}
+.name{
+    position: relative;
+    border-radius: 5px;
+    margin: 5px;
+    height: 20px;
+    background-color: #f8839346;
+    top: 40px;
+    padding: 10px;
+    
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .name{
+        width: 147px;
+        height: 20px;
+        margin-left: -9px;
+    }
+}
+.text{
+    height: 100px;
+    padding: 10px;
+    width: 365px;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .text{
+        width: 149px;
+        height: 63px;
+    }
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(242, 78, 105);
+    font-size: 15px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(138, 23, 44) ;
+}
+
+.info{
+    position: absolute;
+    color: rgb(231, 58, 87);
+    left: 65%;
+    bottom: 155px;
+    font-size: 25px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .info{
+        position: absolute;
+        top: 129px;
+        left: 187px;
+        text-align: center;
+    }
+}
+.address{
+    font-size: 15px;
+    font-weight: 100;
+    color: black;
+}
+h3~a{
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+}
+
+/* ===============footer============= */
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    top: 80px;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    footer{
+        position: relative;
+        top: 79px;
+        height: 245px;
+    }
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;;
+    left: 500px;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .footer-content{
+        left: 24px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 124px;
+    }
+}
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.footer-content a:hover{
+    color: red;
+}
+
+.map{
+    position: absolute;
+    bottom: 1px;
+    height: 198px;
+    left: 67%;
+    width: 500px;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .map{
+        position: absolute;
+        top: -165px;
+        left: 3px;
+        text-align: center;
+        width: 354px;
+        height: 161px;
+    }
+}
+.call2{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left:80px;
+    top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .call2{
+        position: absolute;
+        top: 72px;
+        left: 115px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    #call3 img{
+        position: absolute;
+        width: 30px;
+        top: 70px;
+        left: 79px;
+    }
+}
+.social img{
+    width: 30px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+    margin: 5px;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .social{
+        position: absolute;
+        top: -60px;
+        left: 12px;
+      
+    }
+}
+.copy{
+    position: relative;
+    left: 427px;
+    color: navajowhite;
+    top: 173px;
+    position: absolute;
+}
+.copy a{
+    text-decoration: none;
+    color: navajowhite;
+}
+.copy a:hover{
+    color: red;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .copy{
+        position: absolute;
+        top: 189px;
+        left: -7px;
+        text-align: center;
+        line-height: 24px;
     }
 }
