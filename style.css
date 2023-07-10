@@ -50,12 +50,12 @@
 }
 
 .photo img{
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     position: absolute;
-    left: 685px;
-    bottom: 132px;
+    left: 687px;
+    bottom: 134px;
 }
 @media only screen and (min-width: 360px) and (max-width: 640px){
     .photo img{
@@ -190,7 +190,7 @@
 }
 .cv{
     position: absolute;
-    left: 46%;
+    left: 50%;
     top: 165px;
     width: 150px;
     height: 30px;
@@ -203,9 +203,9 @@
 @media only screen and (min-width: 360px) and (max-width: 640px){
     .cv{
         position: absolute;
-        top: 143px;
+        top: 158px;
         color: white;
-        left: 111px;
+        left: 142px;
         font-size: 14px;
     }
 }
@@ -355,9 +355,10 @@
         color: black;
         font-size: 18px;
         position: relative;
-        left: -104px;
+        left: -77px;
         line-height: 26px;
-        width: 319px;
+        width: 317px;
+        top: 17px;
     }
 }
 
